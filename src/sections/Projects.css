@@ -1,0 +1,10 @@
+.projects {
+  position: relative;
+  margin-top: -6rem;
+}
+
+.projects__grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}

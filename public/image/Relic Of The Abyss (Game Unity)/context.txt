@@ -1,0 +1,3 @@
+game ini merupakan game dungeon crawler dengan konsep dungeon dengan 5 lanti dimana player harus menyelesaikan lantai secara bertahap hingga mencapai lantai akhir, player juga akan menemui npc untuk di dungeon dan player memiliki beberapa hak untuk memilih ending yang diinginkan berdasarkan interaksinya dengan npc. terdapat juga mini coding game drag and drop dengan mengatur logic layaknya mengatur alur program. di dalam dungeon juga terdapat ebberapa entitas lain seprti skeleton sebagai enmy yg harus dikalahkan oleh player lalu ada npc shop di safe area untuk membeli item item tertentu seprti potion helat, potion stamina dll.
+
+ini adalah projek mata kuliah pengembangan game saya.

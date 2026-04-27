@@ -1,0 +1,28 @@
+Nama game ini adalah Guardian of Earth (atau secara internal dikenal sebagai NinuNinu Game), sebuah proyek ambisius yang dikembangkan untuk misi kemanusiaan dan pelestarian lingkungan.
+
+Berikut adalah ringkasan konteks dan pencapaian game ini:
+
+🏆 Pencapaian & Kompetisi
+Proyek ini merupakan karya untuk ajang Hack for Humanity 2026 yang diselenggarakan oleh Devpost. Game ini berhasil meraih prestasi membanggakan dengan memenangkan:
+
+Juara Public Voting: Menjadi favorit pilihan komunitas global.
+2 Perak/Plat (Awards): Sebagai pengakuan atas kualitas dan pesan yang dibawa.
+🎮 Konteks Gameplay & Misi
+Guardian of Earth adalah game simulasi aksi bertema lingkungan yang berfokus pada perlindungan ekosistem di berbagai wilayah Indonesia.
+
+Tema Utama: Pemain berperan sebagai penjaga alam yang harus melawan kerusakan lingkungan akibat ulah manusia. Lokasi petualangannya mencakup pulau-pulau besar di Indonesia seperti Jawa, Papua, Sulawesi, dan Kalimantan.
+Mekanik Inti (Contamination System):
+Setiap stage memiliki sistem Level Kontaminasi. Jika tingkat kontaminasi mencapai batas maksimum, misi dianggap gagal.
+Kontaminasi meningkat drastis akibat tindakan musuh dan keberadaan limbah.
+Musuh (Enemies):
+Loggers (Penebang Liar): Musuh yang secara aktif mencari dan menebang pohon-pohon sehat.
+Polluters (Pencemar): Musuh yang merusak fasilitas lingkungan dan menyebarkan polusi (misalnya di sungai).
+Misi Pemain:
+Reboisasi: Menanam kembali pohon untuk menurunkan tingkat kontaminasi dan memulihkan kesehatan hutan.
+Perbaikan Fasilitas: Memperbaiki infrastruktur lingkungan yang dirusak oleh musuh.
+Patroli: Melindungi alam dari serangan musuh secara real-time.
+Atmosfer Dinamis: Lingkungan akan berubah secara visual (seperti munculnya kabut pekat dan perubahan warna langit) seiring dengan memburuknya kondisi kesehatan alam di stage tersebut.
+Secara keseluruhan, game ini bukan hanya sarana hiburan, tetapi juga media edukasi untuk meningkatkan kesadaran akan pentingnya menjaga kelestarian alam Indonesia dari ancaman deforestasi dan polusi.
+
+
+ini link videonya https://www.youtube.com/watch?v=umI85ThiIGA
