@@ -43,7 +43,7 @@ const Footer = () => {
         <div className="footer__bottom">
           <div className="footer__brand">
             <span className="footer__logo">Ryan<span>.</span></span>
-            <span className="footer__tagline">3D Artist · Game Developer · Back-End Dev</span>
+            <span className="footer__tagline">3D Artist - Game Developer - Web Developer</span>
           </div>
           <div className="footer__social-links">
             <a href="https://www.linkedin.com/in/ryan-saputra-ba29a2352/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
@@ -70,3 +70,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

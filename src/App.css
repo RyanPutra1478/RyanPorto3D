@@ -1,1 +1,3 @@
-/* App.css is no longer needed — styles live in component CSS files */
+.main--standalone {
+  padding-top: 72px;
+}

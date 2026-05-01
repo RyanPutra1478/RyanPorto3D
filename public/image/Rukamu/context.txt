@@ -1,0 +1,1 @@
+disini saya berpeeran sebagi full stack dev dimana rukamu merupakan sebuah usaha dari prodi TMJ di Politeknik Negeri Ujung Pandang. fitu yg diterapkan di dalam projek ini adalah managemen file, role, intergasi payment gateway, intergasi api cek ongkir dll. domain rukamu.com

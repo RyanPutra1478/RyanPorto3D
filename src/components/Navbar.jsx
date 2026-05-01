@@ -1,6 +1,11 @@
 import { useState, useEffect } from 'react';
 import './Navbar.css';
 
+const normalizePathname = (pathname) => {
+  const normalized = pathname.replace(/\/+$/, '');
+  return normalized || '/';
+};
+
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -8,20 +13,24 @@ const Navbar = () => {
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener('scroll', onScroll);
+
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  const currentPath = normalizePathname(window.location.pathname);
+  const isHomePage = currentPath === '/';
+
   const links = [
-    { label: 'Home', href: '#home' },
-    { label: 'Projects', href: '#projects' },
-    { label: 'About', href: '#about' },
-    { label: 'Contact', href: '#contact' },
+    { label: 'Home', href: '/', active: isHomePage },
+    { label: '3D Projects', href: '/projects/3d', active: currentPath === '/projects/3d' },
+    { label: 'Web Projects', href: '/projects/web', active: currentPath === '/projects/web' },
+    { label: 'Contact', href: isHomePage ? '#contact' : '/#contact', active: false },
   ];
 
   return (
     <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="container navbar__inner">
-        <a href="#home" className="navbar__logo">
+        <a href="/" className="navbar__logo">
           Ryan<span className="navbar__logo-dot">.</span>
         </a>
 
@@ -36,9 +45,15 @@ const Navbar = () => {
         </button>
 
         <ul className={`navbar__links ${mobileOpen ? 'open' : ''}`}>
-          {links.map(l => (
-            <li key={l.href}>
-              <a href={l.href} onClick={() => setMobileOpen(false)}>{l.label}</a>
+          {links.map((link) => (
+            <li key={link.href}>
+              <a
+                href={link.href}
+                className={link.active ? 'active' : ''}
+                onClick={() => setMobileOpen(false)}
+              >
+                {link.label}
+              </a>
             </li>
           ))}
         </ul>

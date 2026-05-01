@@ -1,0 +1,1 @@
+Sikamali.com Merupakan platform managemen penduduk lingkar tambang dimana saya berperan sebagai backend developer. pada backend ada beberapa fitur yg kuterapkan yaitu relasi antar tabel seprti kepala kelaurga ke anggota dll. managemen user dan role. serta keamanan website dari Ddos yaitu rate limit

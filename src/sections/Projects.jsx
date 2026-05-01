@@ -1,24 +1,34 @@
 import ProjectGallery from '../components/ProjectGallery';
-import { projects } from '../data/projects';
 import './Projects.css';
 
-const Projects = () => {
+const Projects = ({
+  id,
+  label = 'Portfolio',
+  title = 'Featured Projects',
+  subtitle,
+  items = [],
+  cta,
+  offsetFromHero = false,
+}) => {
   return (
-    <section id="projects" className="projects section">
+    <section id={id} className={`projects section ${offsetFromHero ? 'projects--offset' : ''}`}>
       <div className="container">
         <div className="section-header">
-          <span className="section-label">Portfolio</span>
-          <h2 className="section-title">
-            Featured <span className="gradient-text">Projects</span>
-          </h2>
-          <p className="section-subtitle">
-            A collection of my work in game development, 3D modeling, and animation — 
-            showcasing both the creative renders and technical topology.
-          </p>
+          <span className="section-label">{label}</span>
+          <h2 className="section-title">{title}</h2>
+          {subtitle && <p className="section-subtitle">{subtitle}</p>}
+
+          {cta && (
+            <div className="projects__actions">
+              <a href={cta.href} className="btn btn--ghost projects__cta">
+                {cta.label}
+              </a>
+            </div>
+          )}
         </div>
 
         <div className="projects__grid">
-          {projects.map(project => (
+          {items.map((project) => (
             <ProjectGallery key={project.id} project={project} />
           ))}
         </div>

@@ -1,5 +1,8 @@
 .projects {
   position: relative;
+}
+
+.projects--offset {
   margin-top: -6rem;
 }
 
@@ -7,4 +10,15 @@
   display: flex;
   flex-direction: column;
   gap: var(--space-12);
+}
+
+.projects__actions {
+  margin-top: var(--space-6);
+  display: flex;
+  justify-content: center;
+}
+
+.projects__cta {
+  min-width: 220px;
+  justify-content: center;
 }

@@ -19,10 +19,10 @@ const Hero = () => {
           <h1 className="hero__title">
             Hi, I'm <span className="gradient-text">Ryan Saputra</span>
           </h1>
-          <p className="hero__role">3D Artist · Game Developer · Back-End Dev</p>
+          <p className="hero__role">3D Artist - Game Developer - Web Developer</p>
           <p className="hero__subtitle">
             Specializing in 3D Modeling, Game Development with Unity,
-            and crafting immersive digital experiences. Passionate about
+            and building reliable web applications. Passionate about
             bringing creative visions to life through technology.
           </p>
 
@@ -71,3 +71,4 @@ const Hero = () => {
 };
 
 export default Hero;
+

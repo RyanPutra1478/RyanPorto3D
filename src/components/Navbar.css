@@ -70,6 +70,14 @@
   width: 100%;
 }
 
+.navbar__links a.active {
+  color: var(--text-primary);
+}
+
+.navbar__links a.active::after {
+  width: 100%;
+}
+
 /* Hamburger */
 .navbar__burger {
   display: none;
